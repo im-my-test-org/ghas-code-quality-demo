@@ -1,0 +1,2177 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Demo Scanner",
+          "rules": [
+            {
+              "id": "DEMO001",
+              "name": "Demo Rule 1",
+              "shortDescription": {
+                "text": "Issue 1 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 1."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO002",
+              "name": "Demo Rule 2",
+              "shortDescription": {
+                "text": "Issue 2 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 2."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO003",
+              "name": "Demo Rule 3",
+              "shortDescription": {
+                "text": "Issue 3 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 3."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO004",
+              "name": "Demo Rule 4",
+              "shortDescription": {
+                "text": "Issue 4 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 4."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO005",
+              "name": "Demo Rule 5",
+              "shortDescription": {
+                "text": "Issue 5 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 5."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO006",
+              "name": "Demo Rule 6",
+              "shortDescription": {
+                "text": "Issue 6 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 6."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO007",
+              "name": "Demo Rule 7",
+              "shortDescription": {
+                "text": "Issue 7 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 7."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO008",
+              "name": "Demo Rule 8",
+              "shortDescription": {
+                "text": "Issue 8 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 8."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO009",
+              "name": "Demo Rule 9",
+              "shortDescription": {
+                "text": "Issue 9 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 9."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO010",
+              "name": "Demo Rule 10",
+              "shortDescription": {
+                "text": "Issue 10 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 10."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO011",
+              "name": "Demo Rule 11",
+              "shortDescription": {
+                "text": "Issue 11 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 11."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO012",
+              "name": "Demo Rule 12",
+              "shortDescription": {
+                "text": "Issue 12 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 12."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO013",
+              "name": "Demo Rule 13",
+              "shortDescription": {
+                "text": "Issue 13 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 13."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO014",
+              "name": "Demo Rule 14",
+              "shortDescription": {
+                "text": "Issue 14 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 14."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO015",
+              "name": "Demo Rule 15",
+              "shortDescription": {
+                "text": "Issue 15 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 15."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO016",
+              "name": "Demo Rule 16",
+              "shortDescription": {
+                "text": "Issue 16 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 16."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO017",
+              "name": "Demo Rule 17",
+              "shortDescription": {
+                "text": "Issue 17 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 17."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO018",
+              "name": "Demo Rule 18",
+              "shortDescription": {
+                "text": "Issue 18 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 18."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO019",
+              "name": "Demo Rule 19",
+              "shortDescription": {
+                "text": "Issue 19 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 19."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO020",
+              "name": "Demo Rule 20",
+              "shortDescription": {
+                "text": "Issue 20 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 20."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO021",
+              "name": "Demo Rule 21",
+              "shortDescription": {
+                "text": "Issue 21 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 21."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO022",
+              "name": "Demo Rule 22",
+              "shortDescription": {
+                "text": "Issue 22 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 22."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO023",
+              "name": "Demo Rule 23",
+              "shortDescription": {
+                "text": "Issue 23 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 23."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO024",
+              "name": "Demo Rule 24",
+              "shortDescription": {
+                "text": "Issue 24 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 24."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO025",
+              "name": "Demo Rule 25",
+              "shortDescription": {
+                "text": "Issue 25 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 25."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO026",
+              "name": "Demo Rule 26",
+              "shortDescription": {
+                "text": "Issue 26 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 26."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO027",
+              "name": "Demo Rule 27",
+              "shortDescription": {
+                "text": "Issue 27 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 27."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO028",
+              "name": "Demo Rule 28",
+              "shortDescription": {
+                "text": "Issue 28 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 28."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO029",
+              "name": "Demo Rule 29",
+              "shortDescription": {
+                "text": "Issue 29 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 29."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO030",
+              "name": "Demo Rule 30",
+              "shortDescription": {
+                "text": "Issue 30 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 30."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO031",
+              "name": "Demo Rule 31",
+              "shortDescription": {
+                "text": "Issue 31 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 31."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO032",
+              "name": "Demo Rule 32",
+              "shortDescription": {
+                "text": "Issue 32 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 32."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO033",
+              "name": "Demo Rule 33",
+              "shortDescription": {
+                "text": "Issue 33 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 33."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO034",
+              "name": "Demo Rule 34",
+              "shortDescription": {
+                "text": "Issue 34 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 34."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO035",
+              "name": "Demo Rule 35",
+              "shortDescription": {
+                "text": "Issue 35 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 35."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO036",
+              "name": "Demo Rule 36",
+              "shortDescription": {
+                "text": "Issue 36 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 36."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO037",
+              "name": "Demo Rule 37",
+              "shortDescription": {
+                "text": "Issue 37 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 37."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO038",
+              "name": "Demo Rule 38",
+              "shortDescription": {
+                "text": "Issue 38 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 38."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO039",
+              "name": "Demo Rule 39",
+              "shortDescription": {
+                "text": "Issue 39 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 39."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO040",
+              "name": "Demo Rule 40",
+              "shortDescription": {
+                "text": "Issue 40 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 40."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO041",
+              "name": "Demo Rule 41",
+              "shortDescription": {
+                "text": "Issue 41 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 41."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO042",
+              "name": "Demo Rule 42",
+              "shortDescription": {
+                "text": "Issue 42 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 42."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO043",
+              "name": "Demo Rule 43",
+              "shortDescription": {
+                "text": "Issue 43 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 43."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO044",
+              "name": "Demo Rule 44",
+              "shortDescription": {
+                "text": "Issue 44 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 44."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO045",
+              "name": "Demo Rule 45",
+              "shortDescription": {
+                "text": "Issue 45 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 45."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO046",
+              "name": "Demo Rule 46",
+              "shortDescription": {
+                "text": "Issue 46 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 46."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO047",
+              "name": "Demo Rule 47",
+              "shortDescription": {
+                "text": "Issue 47 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 47."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO048",
+              "name": "Demo Rule 48",
+              "shortDescription": {
+                "text": "Issue 48 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 48."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO049",
+              "name": "Demo Rule 49",
+              "shortDescription": {
+                "text": "Issue 49 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 49."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO050",
+              "name": "Demo Rule 50",
+              "shortDescription": {
+                "text": "Issue 50 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 50."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO051",
+              "name": "Demo Rule 51",
+              "shortDescription": {
+                "text": "Issue 51 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 51."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO052",
+              "name": "Demo Rule 52",
+              "shortDescription": {
+                "text": "Issue 52 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 52."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO053",
+              "name": "Demo Rule 53",
+              "shortDescription": {
+                "text": "Issue 53 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 53."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO054",
+              "name": "Demo Rule 54",
+              "shortDescription": {
+                "text": "Issue 54 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 54."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO055",
+              "name": "Demo Rule 55",
+              "shortDescription": {
+                "text": "Issue 55 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 55."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO056",
+              "name": "Demo Rule 56",
+              "shortDescription": {
+                "text": "Issue 56 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 56."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO057",
+              "name": "Demo Rule 57",
+              "shortDescription": {
+                "text": "Issue 57 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 57."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "error"
+              }
+            },
+            {
+              "id": "DEMO058",
+              "name": "Demo Rule 58",
+              "shortDescription": {
+                "text": "Issue 58 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 58."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "warning"
+              }
+            },
+            {
+              "id": "DEMO059",
+              "name": "Demo Rule 59",
+              "shortDescription": {
+                "text": "Issue 59 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 59."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            },
+            {
+              "id": "DEMO060",
+              "name": "Demo Rule 60",
+              "shortDescription": {
+                "text": "Issue 60 detected"
+              },
+              "fullDescription": {
+                "text": "Detailed description of issue 60."
+              },
+              "help": {
+                "text": "Fix the issue using best practices."
+              },
+              "properties": {
+                "severity": "note"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "DEMO001",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO002",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 2"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 151,
+                  "startColumn": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO003",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 3"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO004",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 4"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO005",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 5"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 32
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO006",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 6"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO007",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 7"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO008",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 8"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 49
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO009",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 9"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO010",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 10"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 24
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO011",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 11"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO012",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 12"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO013",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 13"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 34
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO014",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 14"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO015",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 15"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO016",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 16"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 35
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO017",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 17"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO018",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 18"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO019",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 19"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 49
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO020",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 20"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO021",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 21"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO022",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 22"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 24
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO023",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 23"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO024",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 24"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO025",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 25"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 48
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO026",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 26"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO027",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 27"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 33
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO028",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 28"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO029",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 29"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 23
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO030",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 30"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 32
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO031",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 31"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO032",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 32"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO033",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 33"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 35
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO034",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 34"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO035",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 35"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 11
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO036",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 36"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO037",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 37"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO038",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 38"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 42
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO039",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 39"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO040",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 40"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 13
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO041",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 41"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 41
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO042",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 42"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO043",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 43"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO044",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 44"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO045",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 45"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO046",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 46"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO047",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 47"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 48
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO048",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 48"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO049",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 49"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO050",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 50"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO051",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 51"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO052",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 52"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 49
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO053",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 53"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 44
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO054",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 54"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO055",
+          "level": "warning",
+          "message": {
+            "text": "Sample issue 55"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 38
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO056",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 56"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file1.js"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO057",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 57"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file2.js"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO058",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 58"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file3.js"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 48
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO059",
+          "level": "note",
+          "message": {
+            "text": "Sample issue 59"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file4.js"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DEMO060",
+          "level": "error",
+          "message": {
+            "text": "Sample issue 60"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/file0.js"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 9
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
